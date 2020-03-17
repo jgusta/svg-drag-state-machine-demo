@@ -1,0 +1,32 @@
+body {
+  background-color: #0a0a0a;
+  margin: 0;
+  padding: 0;
+}
+.area {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.wire {
+  overflow: visible !important;
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+}
+.wire-path {
+  fill: none;
+  stroke-width: 5px;
+}
+.indicator {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+}
+.socket {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
